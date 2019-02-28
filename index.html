@@ -8,57 +8,58 @@
   <!-- CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-<div id="navbar" class="navbar-fixed scrollspy">
-  <nav  class="white">
-    <div class="nav-wrapper container">
-    	<div class="container"> <a href="#navbar" class="brand-logo">Ginestin</a></div>
-     
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      <ul class="right hide-on-med-and-down">
+  <div id="navbar" class="navbar-fixed scrollspy">
+    <nav  class="">
+      <div class="nav-wrapper container">
+      	<div class="container"> <a href="#navbar" class="brand-logo">GINESTIN</a></div>
        
-        <li><a class="head-link" href="#projects">Servicios</a></li>
-         <li><a class="head-link" href="#aboutus">Conoce más</a></li>
-        <li><a class="head-link" href="#contactus">Contáctanos</a></li>
-       
-      </ul>
-      <ul class="right side-nav" id="mobile-demo">
-      	<li><a class="head-link" href="#projects">Servicios</a></li>
-         <li><a class="head-link" href="#aboutus">Conoce más</a></li>
-        
-        <li><a class="head-link" href="#contactus">Contáctanos</a></li>
-      </ul>
-    </div>
-  </nav>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul class="right hide-on-med-and-down">
+         
+          <li><a class="head-link" href="#projects">Servicios</a></li>
+           <li><a class="head-link" href="#aboutus">Conoce más</a></li>
+          <li><a class="head-link" href="#contactus">Contáctanos</a></li>
+         
+        </ul>
+        <ul class="right side-nav" id="mobile-demo">
+        	<li><a class="head-link" href="#projects">Servicios</a></li>
+           <li><a class="head-link" href="#aboutus">Conoce más</a></li>
+          
+          <li><a class="head-link" href="#contactus">Contáctanos</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Ginestin</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Las soluciones que las mujeres estaban esperando.</h5>
-        </div>
-        <div class="row center">
-          <a href="#" class="btn-large waves-effect waves-light purple lighten-1">Saber más</a>
-        </div>
-        <br><br>
-
+  <div class="port">
+    <div class="content_port">
+      <!-- <div class="child_1">
+        <h1 class="title_text">Ginestin</h1>
+      </div> -->
+      <div class="child_2">
+        <h5 class="header col s12 kristi"><span class="kristi ani_1">Descubre</span> <br> <span class="kristi ani_2">todo</span> <span class="kristi ani_3">lo</span> <span class="kristi ani_4">que</span> <span class="kristi ani_5">podemos</span> <span class="kristi ani_6">hacer</span> <span class="kristi ani_7">por</span> <span class="kristi ani_8">Ti</span></h5>
+       <a id="boton" href="#aboutus"><button class="btn-port">Conócenos</button></a>
       </div>
     </div>
-    <div class="parallax"><img src="images/vientre2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="overlay_port">
+      <img src="images/butter2.png">
+    </div>
+    <div class="back_port">
+    </div>
   </div>
 
-
-  <div class="container">
+  <div id="section_icon" class="container">
     <div class="section">
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div id="icon1" class="col s12 m4 hideme">
           <div class="icon-block">
             <h2 class="center" style="color:#333"><i class="fas fa-heartbeat"></i></h2>
             <h5 class="center">Salud Femenina</h5>
@@ -67,7 +68,7 @@
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div id="icon2" class="col s12 m4 hideme">
           <div class="icon-block">
             <h2 class="center" style="color:#333"><i class="fas fa-star-of-life"></i></h2>
             <h5 class="center">Cuidado Personal</h5>
@@ -76,7 +77,7 @@
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div id="icon3" class="col s12 m4 hideme">
           <div class="icon-block">
             <h2 class="center" style="color:#333"><i class="fas fa-female"></i></h2>
             <h5 class="center">Mujer y más</h5>
@@ -89,58 +90,98 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="parallax_cont_1" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12" style="color: #fff;">Todos los tratamientos de la ginecología estética actual.</h5>
+        <div class="row">
+          <h5 class="header col s12 m6 kristi" style="color: #fff;">Todos los tratamientos de la ginecología estética actual a tu alcance</h5>
+          <p class="header col s12 m6" style="color: #fff;">
+            <span class="hideme"> &middot; Lorem ipsum dolor sit ament</span><br>
+            <span class="hideme"> &middot; Lorem ipsum dolor sit ament</span><br>
+            <span class="hideme"> &middot; Lorem ipsum dolor sit ament</span><br>
+            <span class="hideme"> &middot; Lorem ipsum dolor sit ament</span><br>
+            <span class="hideme"> &middot; Lorem ipsum dolor sit ament</span><br>
+            <span class="hideme"> &middot; Lorem ipsum dolor sit ament</span><br>
+          </p>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/vientre.jpg" alt="img"></div>
-  </div>
-
-  <div class="container section scrollspy" id="projects">
-    <div class="section">
-    	<br>
-    	<br>
-      <h4 class="center">Nuestros Servicios</h4>
-      <br>
-      <div class="row">
-      	<div class="col s6">
-      	<img class="materialboxed responsive-img" data-caption="Description about the work or project"  src="images/inty.jpg">
-      	</div> 
-      	<div class="col s6">
-      	<img class="materialboxed responsive-img" data-caption="Description about the work or project"  src="images/rejuvenecimientos.jpg">
-      	</div> 
-      </div><!--row-->
-      
-       <div class="row">
-      	<div class="col s6">
-      	<img class="materialboxed responsive-img" data-caption="Description about the work or project" src="images/cuidado.jpg">
-      	</div> 
-      	<div class="col s6">
-      	<img class="materialboxed responsive-img" data-caption="Description about the work or project" src="images/cuidado3.jpg">
-      	</div> 
-      </div><!--row-->
-      
-      <div class="center">
-      	<a class="waves-effect waves-light btn purple lighten-1">Ver más</a>
-      </div>
-
+    <div class="parallax"><img src="images/care1.jpg" alt="img"></div>
+    <div class="overlay_parallax_1">
+      <!-- <img src="images/butter2.png"> -->
     </div>
   </div>
 
+  <div class="container section scrollspy" id="projects">
+    <h2 class="kristi"  style="font-size: 6em; margin: 50px ; text-align: center;" >Nuestros Servicios</h2>
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/female.jpg">
+              <span class="card-title">Rejuvenecimiento Vaginal</span>
+            </div>
+            <div class="card-content">
+              <p>Es un procedimiento ginecológico recomendado en mujeres con laxitud vaginal posterior a
+              partos o genética...</p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal1" style="color:#fff">Ver más</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/vientre2.jpg">
+              <span class="card-title">Procedimientos de Ginoestética</span>
+            </div>
+            <div class="card-content">
+              <p>Se realizan muchas cosas en ginecología estética como reparación de episiotomías dolorosas o
+no, genitales externos vulva y vagina con laxitud vaginal o con apertura aumentada de la zona
+por los partos...</p>
+<a class="waves-effect waves-light btn modal-trigger" href="#modal2" style="color:#fff">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/vientre.jpg">
+              <span class="card-title">Labioplastia con laser</span>
+            </div>
+            <div class="card-content">
+              <p>Se recomienda para mujeres que tienen los labios menores muy grandes que sobrepasan los
+labios mayores...</p>
+<a class="waves-effect waves-light btn modal-trigger" href="#modal3" style="color:#fff">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/womanflower.jpg">
+              <span class="card-title">Rejuvenecimiento Vaginal</span>
+            </div>
+            <div class="card-content">
+              <p>Es un procedimiento ginecológico recomendado en mujeres con laxitud vaginal posterior a
+              partos o genética...</p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal4" style="color:#fff">Ver más</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 
    <div class="parallax-container valign-wrapper section scrollspy" id="aboutus">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="center row col s3">
         	
-        	<h3>Sobre Ginestin</h3>
+        	<h3 class="kristi" style="color: #fff; font-size: 6em;">Sobre Ginestin</h3>
        </div>
         <div class="center row col s12">
-        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+        	<p style="color: #fff">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
         		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
        </div>
        
@@ -155,7 +196,7 @@
 	<div class="section">
 		<br>
 	<br>
-	<h2>Contáctanos</h2>	
+	<h2 class="kristi" style="font-size: 6em">Contáctanos</h2>	
 	
 <div class="row">
 		
@@ -220,6 +261,76 @@
     </div>
   </footer>
 
+<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Rejuvenecimiento Vaginal</h4>
+      <p>Es un procedimiento ginecológico recomendado en mujeres con laxitud vaginal posterior a
+partos o genética; en menopausia con sequedad vaginal, también en la incontinencia o escapes
+de orina al esfuerzo (toser, correr, saltar, etc). Ya que, mejora la tensión de la vagina
+proporcionando tonicidad, rejuveneciendo la zona aumentando el colágeno local y la
+lubricación.
+El tratamiento se realiza con Láser, que tiene un dispositivo especial, el cual se introduce en la
+vagina, para que ejerza un efecto local. No es doloroso y es totalmente ambulatorio, es decir, no
+necesita quirófano, cortar, ni realizar cirugías, y los resultados son estupendos.
+Se recomienda al menos 2-3 sesiones (dependiendo del caso), siendo una sesión por mes.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-green btn-floating btn-large waves-effect waves-light">&#x2705;</a>
+    </div>
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>Labioplastia con Laser</h4>
+      <p>Se recomienda para mujeres que tienen los labios menores muy grandes que sobrepasan los
+labios mayores. Esta situación es molesta para la vida cotidiana de la mujer y favorece las
+infecciones recurrentes.
+La labioplastia con Láser se realiza como cirugía ambulatoria, remodelando el exceso de labios.
+Utilizando el Laser se logra menos sangrado y menos dolor post operatorio que en la cirugía en
+quirófano tradicional, siendo posible recuperar la vida normal mucho más rápidamente y con
+unos resultados excepcionales.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-green btn-floating btn-large waves-effect waves-light">&#x2705;</a>
+    </div>
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-green btn-floating btn-large waves-effect waves-light">&#x2705;</a>
+    </div>
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Ginecoestética</h4>
+      <p>Se realizan muchas cosas en ginecología estética como reparación de episiotomías dolorosas o
+no, genitales externos vulva y vagina con laxitud vaginal o con apertura aumentada de la zona
+por los partos.
+Podemos ayudar con la atrofia vulvar y picor o liquen antes o después de la menopausia.
+Para las mujeres que no pueden tener relaciones con penetración por contractura vaginal que
+impide la penetración, les decimos que hay solución efectiva para su problema.( con Botox
+realizado en consulta, depende del caso una sola aplicación, depende del caso)
+Ademas de Atrofia vaginal con incontinencia leve a moderada
+Axitud vaginal con incontinencia leve a moderada
+Aumento de placer sexual aumentando el punto G
+Cirugía de labios menores por exceso de tejido, que moleste al utilizar ropa ajustada o
+actividades deportivas
+Aumento de labios mayores por flacidez
+Cirugía de quistes de Bartolino
+Eliminación de verrugas vulvares, condilomas, moluscos contagiosos
+Tratamiento de cuello uterino citologias CIN 1 o ulceras que producen aumento del moco
+vaginal con consecuente infecciones a repetición</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-green btn-floating btn-large waves-effect waves-light">&#x2705;</a>
+    </div>
+  </div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -228,12 +339,23 @@
   <script>
   $(document).ready(function(){
     $('.materialboxed').materialbox();
-      $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav();
+    $('.modal-trigger').leanModal();
       
   });
   </script>
   <script>
   	    $('.head-link').click(function(e) {
+        e.preventDefault();
+        
+        var goto = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(goto).offset().top
+        }, 800);
+    });
+
+        $('#boton').click(function(e) {
         e.preventDefault();
         
         var goto = $(this).attr('href');
